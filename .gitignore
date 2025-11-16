@@ -1,4 +1,24 @@
 # pyutil26 in https://github.com/CG-SHOP/pyutils26.git
 pyutil26/
 
+# Ignore virtual environment directories
+cgshop-env/
+
+# macOS system files
 .DS_Store
+
+# Python cache files
+__pycache__/
+
+# VSCode settings
+.vscode/
+
+# Environment variable files
+.env
+
+# Ignore all files in the input/output directory except .zip files
+input/*
+!input/*.zip
+input/benchmark_instances_rev1_250.zip
+output/*
+!output/*.zip
