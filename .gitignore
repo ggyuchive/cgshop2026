@@ -1,5 +1,5 @@
 # pyutil26 in https://github.com/CG-SHOP/pyutils26.git
-pyutil26/
+# pyutil26/
 
 # Ignore virtual environment directories
 cgshop-env/
@@ -16,9 +16,15 @@ __pycache__/
 # Environment variable files
 .env
 
+# Ignore all files in the pyutils26 directory
+/pyutils26
+
 # Ignore all files in the input/output directory except .zip files
 input/*
 !input/*.zip
 input/benchmark_instances_rev1_250.zip
 output/*
 !output/*.zip
+
+# Ignore all files in the visualization directory
+visualization/*
